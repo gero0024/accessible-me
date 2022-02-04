@@ -19,7 +19,7 @@ body {
     font-size: 4em  ;
   }
 
-  .skip-links{
+  #skip-links{
       margin: 0;
       padding: 0;
       text-decoration: none;
