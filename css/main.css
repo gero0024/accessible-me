@@ -1,71 +1,123 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-color: rgb(170, 168, 168);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  }
+  
+  h1{
+    font-size: 4em  ;
+  }
+
+  .skip-links{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+  } 
+  
+  .main-nav{
+    color: rgb(161, 12, 12);
+    font-size: 0.7em;
+  }
+  
+  .main-nav a:hover{
+    color: aquamarine;
+  }
+  
+  .main-nav a:focus{
+    color: black;
+  }
+  
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  img {
+    width: 100%;
+    padding-top: 2em;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    border-top: solid black 3px; 
+    border-bottom: solid black 3px;
+    border-left: solid black 3px;
+  }
+
+  .main-nav ul li:nth-child(4){
+      border-right: solid black 3px;
+  }
+
+  
+  .main-nav ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    font-size: 0.7em;
+  }
+  
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background: none;
+    border: 2px solid black;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: rgb(161, 12, 12);
+    font-weight: bold;
+  }
+  
+form button:hover{
+    color: aquamarine;
+
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+form button:focus{
+    color: black;
 }
 
-.container {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
+  .site-footer {
+    padding: 2rem 0;
+  }
 
-img {
-  width: 100%;
-}
-
-.main-nav ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav ul li {
-  flex: 1;
-  text-align: center;
-}
-
-.main-nav ul li a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.25rem;
-}
-
-form input,
-form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: .5rem 1rem;
-}
-
-form textarea {
-  min-height: 150px;
-  max-height: 150px;
-  height: 150px;
-  resize: none;
-}
-
-form button {
-  background: none;
-  border: 2px solid black;
-  padding: 1rem;
-  text-transform: uppercase;
-}
-
-.site-footer {
-  padding: 2rem 0;
-}
+  .owner ul{
+      list-style: none;
+  }
